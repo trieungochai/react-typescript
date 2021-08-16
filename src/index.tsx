@@ -1,13 +1,14 @@
 import ReactDOM from "react-dom";
 
-import EventComponent from "./event/EventComponent";
+import UserSearch from "./refs/UserSearch";
+// import EventComponent from "./event/EventComponent";
 // import UserSearch from "./state/UserSearch";
 // import GuestList from "./state/GuestList";
 
 const App = () => {
   return (
     <div>
-      <EventComponent />
+      <UserSearch />
     </div>
   );
 };
